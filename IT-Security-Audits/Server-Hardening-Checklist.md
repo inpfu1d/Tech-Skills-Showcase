@@ -29,5 +29,5 @@ This document outlines key security measures implemented to reduce the attack su
 - [ ] **Why?** Every running service is a potential entry point for hackers. If you don't need it, kill it.
 
 ---
-*Created by: [Your Name/Username]*
+*Created by: [Ahmed Abdullah Ba-abbad / inpFu1d]*
 *Skills Applied: Network Security, Risk Management, System Hardening.*
