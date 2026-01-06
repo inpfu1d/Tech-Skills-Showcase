@@ -1,5 +1,5 @@
 # Tech-Skills-Showcase
-#  Hi, I'm [AHMED]
+#  Hi, I'm AHMED
 ### IT Support Specialist | Aspiring Network Engineer
 
 Welcome to my technical portfolio! Here I document my journey in mastering IT infrastructure, Security, and Automation. This repository demonstrates my practical application of concepts from the **Google IT Support Professional Certificate** and **CCNA** studies.
