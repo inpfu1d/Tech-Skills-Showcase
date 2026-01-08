@@ -31,5 +31,5 @@ Based on the analysis, I proposed the following optimization plan:
 ##  Screenshots
 ![Network Connectivity Test Results](network-test-results.ipconfig.png)
 ![Network Connectivity Test Results](Local-Router-Test.png)
-![Network Connectivity Test Results](Internet Connectivity Test.png)
-![Network Connectivity Test Results](Path Analysis (Trace Route).png)
+![Network Connectivity Test Results](Internet-Connectivity-Test.png)
+![Network Connectivity Test Results](Path-Analysis-(Trace-Route).png)
