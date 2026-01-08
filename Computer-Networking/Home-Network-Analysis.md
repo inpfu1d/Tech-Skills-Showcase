@@ -1,4 +1,4 @@
-# 🏠 Home Network Diagnostics & Performance Analysis
+#  Home Network Diagnostics & Performance Analysis
 
 **Date:** 2026-01-08
 **Technician:** Ahmed Ba-abbad
@@ -25,9 +25,10 @@
 * **Latency:** < Minimum = 2ms, Maximum = 8ms, Average = 5ms.
 
 ### B. Internet Connectivity Test
-*Command: `ping 8.8.8.8 google.com`*
+*Command: `ping 8.8.8.8 `*
 * **Result:** Successful.
 * **Average Latency:** Minimum = 166ms, Maximum = 198ms, Average = 182ms
+* **Notes:** High latency observed (Avg 182ms) due to 4G/LTE Wireless Connection.
 
 ### C. Path Analysis (Trace Route)
 *Command: `tracert google.com`*
@@ -36,8 +37,13 @@
 ---
 
 ## 3. Optimization Recommendation
-**Observation:** The ISP default DNS servers might be slow or unsecure.
-**Action Plan:** Switch to **Google Public DNS** or **Cloudflare** for faster resolution.
+**Observation:** Latency is high due to wireless cellular constraints.
+
+**Action Plan:**
+
+Optimize 4G Router placement to improve Signal-to-Noise Ratio (SINR).
+
+Switch to Google Public DNS (8.8.8.8) to improve web browsing resolution speed, although this will not reduce ICMP latency.
 
 * **Preferred Primary DNS:** 8.8.8.8
 * **Preferred Secondary DNS:** 8.8.4.4
