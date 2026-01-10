@@ -27,7 +27,7 @@ Start-Service Spooler
 The screenshot below shows the service status transitioning from `Running` to `Stopped` and back to `Running`.
 ```
 
-![Windows Service Proof](Windows-Service-Lifecycle.png)
+![Windows Service Proof](Windows-Service-management.png)
 
 ---
 
