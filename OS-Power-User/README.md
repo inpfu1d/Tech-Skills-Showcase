@@ -27,7 +27,7 @@ icacls "C:\secure-logs" /grant "Help-Desk-user:(OI)(CI)R"
 **Verification:**
 The screenshot confirms `Help-Desk-user` has `(R)` access with inheritance `(OI)(CI)`.
 
-![Windows Proof](Win.png)
+![Windows Proof](win.png)
 
 ### 2. Linux Environment (Ubuntu via WSL)
 I replicated the same security controls on an Ubuntu system using standard Linux administration commands:
@@ -44,4 +44,4 @@ sudo chmod 750 /var/secure-logs
 **Verification:**
 The output `drwxr-x---` confirms that the group `Help-Desk-user` has Read/Execute permissions, while others have no access.
 
-![Linux Proof](Lin.png)
+![Linux Proof](lin.png)
