@@ -25,6 +25,7 @@ Start-Service Spooler
 
 **Verification:**
 The screenshot below shows the service status transitioning from `Running` to `Stopped` and back to `Running`.
+```
 
 ![Windows Service Proof](Windows-Service-Lifecycle.png)
 
@@ -46,5 +47,5 @@ sudo service cron start
 
 **Verification:**
 The sequence in the screenshot confirms successful control over the `cron` service states, showing it transitioning from active to inactive and back to active.
-
+```
 ![Linux Service Proof](Linux-Service-Lifecycle.png)
