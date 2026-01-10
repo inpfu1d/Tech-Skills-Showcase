@@ -22,7 +22,7 @@ net user Help-Desk-user Password123 /add
 mkdir c:\secure-logs
 
 # Grant Read-Only access with inheritance
-icacls "C:\secure-logs" /grant "Help-Desk-user:(OI)(CI)R"
+icacls "C:\secure-logs" /grant "Help-Desk-user:(OI)(CI)R"```
 
 **Verification:**
 The screenshot confirms `Help-Desk-user` has `(R)` access with inheritance `(OI)(CI)`.
@@ -39,7 +39,7 @@ sudo mkdir /var/secure-logs
 
 # Set ownership and permissions (750: rwxr-x---)
 sudo chown root:Help-Desk-user /var/secure-logs
-sudo chmod 750 /var/secure-logs
+sudo chmod 750 /var/secure-logs```
 
 **Verification:**
 The output `drwxr-x---` confirms that the group `Help-Desk-user` has Read/Execute permissions, while others have no access.
