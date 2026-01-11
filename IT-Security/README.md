@@ -20,3 +20,27 @@ Since the standard `cipher` command (EFS) is restricted in Windows Home Edition,
 
 # Verify content (displays encrypted string)
 cat secret-data.txt
+
+**Verification:**
+The screenshot confirms that the plain text data is successfully transformed into a long cryptographic string, making it unreadable to unauthorized users.
+```
+
+![Windows Encryption Proof](Win.png)
+
+---
+
+### 2. Linux Environment (GPG Encryption)
+In the Linux environment, I used **GnuPG (GPG)**, the industry standard for symmetric encryption, to secure a sensitive file.
+
+**Workflow:**
+```bash
+# Encrypt the file using a passphrase
+gpg -c linux-secret.txt
+
+# List files to verify the creation of the .gpg encrypted file
+ls -l linux-secret.txt*
+
+**Verification:**
+The output shows the creation of linux-secret.txt.gpg. This file is now a secure container that requires the correct passphrase for access.
+```
+![Linux Encryption Proof](Lin.png)
