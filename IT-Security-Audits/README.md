@@ -28,8 +28,8 @@ On the Linux side (Ubuntu), I audited the `/var/log/auth.log` file to monitor us
 **Command Executed:**
 ```bash
 sudo tail -n 15 /var/log/auth.log
-
+```
 **Key Findings:**
 The logs confirm session openings for the user and successful privilege escalation via sudo, providing a clear trail of administrative actions.
-```
+
 ![Linux Audit Proof](Lin.png)
